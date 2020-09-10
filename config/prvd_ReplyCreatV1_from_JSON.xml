@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD>
+    <RET>
+      <RET_CODE metadataid="code" chinese_name="交易信息码"/>
+      <RET_MSG metadataid="msg" chinese_name="交易返回信息"/>
+    </RET>
+  </SYS_HEAD>
+  <BODY>
+    <ReplyNo metadataid="reply_no" chinese_name="批复编号"/>
+    <CoprBsnNo metadataid="copr_bsnno" chinese_name="合作方业务编号"/>
+  </BODY>
+</Json>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+    <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+    <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+    <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+    <ctr_bal metadataid="ctr_bal" chinese_name="合同余额"/>
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <dbt_amt metadataid="dbt_amt" chinese_name="借据金额"/>
+    <ctr_exp_dt metadataid="ctr_exp_dt" chinese_name="合同到期日"/>
+    <dbt_exp_dt metadataid="dbt_exp_dt" chinese_name="借据到期日"/>
+    <int_rate metadataid="int_rate" chinese_name="利率"/>
+    <int_rate metadataid="int_rate" chinese_name="利率"/>
+  </result>
+</Json>

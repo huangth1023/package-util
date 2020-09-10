@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+  <request>
+    <sdoroot>
+      <SysHead>
+        <appid metadataid="appid" chinese_name="应用id"/>
+        <token metadataid="token" chinese_name="应用授权令牌"/>
+        <version metadataid="version" chinese_name="api版本号"/>
+        <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+        <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+        <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+        <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+      </SysHead>
+      <Body>
+        <document_name metadataid="document_name" chinese_name="客户名称"/>
+        <document_type metadataid="document_type" chinese_name="证件类型"/>
+        <document_id metadataid="document_id" chinese_name="证件号码"/>
+        <limit_no metadataid="limit_no" chinese_name="额度编号"/>
+        <cstmgr_no metadataid="cstmgr_no" chinese_name="客户经理"/>
+        <cstmgrinst_no metadataid="cstmgrinst_no" chinese_name="客户经理机构号"/>
+        <bsn_tp metadataid="bsn_tp" chinese_name="业务类型"/>
+        <aply_amt metadataid="aply_amt" chinese_name="申请金额"/>
+        <aplyitt_dt metadataid="aplyitt_dt" chinese_name="申请起期"/>
+        <aplystop_dt metadataid="aplystop_dt" chinese_name="申请止期"/>
+        <loanpps_dsc metadataid="loanpps_dsc" chinese_name="贷款用途说明"/>
+        <crintrate_tp metadataid="crintrate_tp" chinese_name="贷方利率类型"/>
+        <flt_mth metadataid="flt_mth" chinese_name="浮动方式"/>
+        <intratadj_md metadataid="intratadj_md" chinese_name="利率调整方式"/>
+        <flt_prcnt metadataid="flt_prcnt" chinese_name="浮动比例"/>
+        <int_rate metadataid="int_rate" chinese_name="利率"/>
+        <intsetl_mth metadataid="intsetl_mth" chinese_name="结息方式"/>
+        <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+        <img_tpl_cd metadataid="img_tpl_cd" chinese_name="影像模板代码"/>
+        <img_bsn_no metadataid="img_bsn_no" chinese_name="影像业务编号"/>
+        <bsnvr_type metadataid="bsnvr_type" chinese_name="业务种类"/>
+        <plntnginfarray metadataid="plntnginfarray" chinese_name="种植信息数组"/>
+        <plntng_tp metadataid="plntng_tp" chinese_name="种植种类"/>
+        <plntng_area metadataid="plntng_area" chinese_name="种植面积"/>
+        <plntnginfarray metadataid="plntnginfarray" chinese_name="种植信息数组"/>
+      </Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <SysHead>
+        <code metadataid="code" chinese_name="返回码"/>
+        <msg metadataid="msg" chinese_name="返回信息"/>
+      </SysHead>
+      <Body>
+        <reply_no metadataid="reply_no" chinese_name="批复编号"/>
+        <copr_bsnno metadataid="copr_bsnno" chinese_name="合作方业务编号"/>
+      </Body>
+    </sdoroot>
+  </response>
+</service>

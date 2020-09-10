@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+  <request>
+    <sdoroot>
+      <SysHead>
+        <appid metadataid="appid" chinese_name="应用id"/>
+        <token metadataid="token" chinese_name="应用授权令牌"/>
+        <version metadataid="version" chinese_name="api版本号"/>
+        <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+        <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+        <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+        <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+      </SysHead>
+      <Body>
+        <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+        <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+        <ctf_issu_offic metadataid="ctf_issu_offic" chinese_name="发证机关"/>
+        <cst_tp metadataid="cst_tp" chinese_name="客户类型"/>
+        <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+        <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+        <opr_tp metadataid="opr_tp" chinese_name="操作类型"/>
+        <sumchk_ind metadataid="sumchk_ind" chinese_name="校验标志"/>
+        <cst_mgr_no metadataid="cst_mgr_no" chinese_name="客户经理"/>
+        <cst_mgr_inst_no metadataid="cst_mgr_inst_no" chinese_name="客户经理机构号"/>
+        <cr_cst_no metadataid="cr_cst_no" chinese_name="信贷客户代号"/>
+        <cr_exn_cst_flg metadataid="cr_exn_cst_flg" chinese_name="授信客户标识"/>
+        <thrd_party_cst_flg metadataid="thrd_party_cst_flg" chinese_name="第三方客户标识"/>
+        <thrd_party_cst_tp metadataid="thrd_party_cst_tp" chinese_name="第三方客户类型"/>
+        <gnd_ind metadataid="gnd_ind" chinese_name="性别标志"/>
+        <birth_date metadataid="birth_date" chinese_name="出生日期"/>
+        <ident_exp_dt metadataid="ident_exp_dt" chinese_name="证件到期日"/>
+        <ntnty_cd metadataid="ntnty_cd" chinese_name="国籍代码"/>
+        <nation metadataid="nation" chinese_name="民族"/>
+        <marriage_cd metadataid="marriage_cd" chinese_name="婚姻状况代码"/>
+        <frmr_flg metadataid="frmr_flg" chinese_name="农户标识"/>
+        <hshd_rgst_knd metadataid="hshd_rgst_knd" chinese_name="户籍性质"/>
+        <domc_lo metadataid="domc_lo" chinese_name="户籍所在地"/>
+        <lcl_polc_stn_nm metadataid="lcl_polc_stn_nm" chinese_name="街道派出所名称"/>
+        <high_edct metadataid="high_edct" chinese_name="最高学历"/>
+        <dgr_cd metadataid="dgr_cd" chinese_name="学位代码"/>
+        <ocp_cd metadataid="ocp_cd" chinese_name="职业代码"/>
+        <pos_ttl_cd metadataid="pos_ttl_cd" chinese_name="职称代码"/>
+        <pos_cd metadataid="pos_cd" chinese_name="职务代码"/>
+        <hlt_st metadataid="hlt_st" chinese_name="健康状况"/>
+        <pst_knd metadataid="pst_knd" chinese_name="岗位性质"/>
+        <corp_nm metadataid="corp_nm" chinese_name="工作单位"/>
+        <offc_tel metadataid="offc_tel" chinese_name="办公电话"/>
+        <co_wrk_trm metadataid="co_wrk_trm" chinese_name="现单位工作年限"/>
+        <fam_ppn_num metadataid="fam_ppn_num" chinese_name="家庭人口"/>
+        <cty_cd metadataid="cty_cd" chinese_name="国家编码"/>
+        <prov_cd metadataid="prov_cd" chinese_name="省份代码"/>
+        <city_cd metadataid="city_cd" chinese_name="城市代码"/>
+        <dstc_cd metadataid="dstc_cd" chinese_name="区县代码"/>
+        <fam_adr metadataid="fam_adr" chinese_name="家庭住址"/>
+        <hs_tp metadataid="hs_tp" chinese_name="住宅类型"/>
+        <mbl_no metadataid="mbl_no" chinese_name="移动号码"/>
+        <idy_invl_cd metadataid="idy_invl_cd" chinese_name="所属行业代码"/>
+        <img_tpl_cd metadataid="img_tpl_cd" chinese_name="影像模板代码"/>
+        <img_bsn_no metadataid="img_bsn_no" chinese_name="影像业务编号"/>
+        <cr_inf_array metadataid="cr_inf_array" chinese_name="信用信息数组"/>
+        <src_nm metadataid="src_nm" chinese_name="来源"/>
+        <qry_dt metadataid="qry_dt" chinese_name="查询日期"/>
+        <cr_card_ctns_odue_tms metadataid="cr_card_ctns_odue_tms" chinese_name="贷记卡连续逾期次数"/>
+        <cr_card_acm_odue_tms metadataid="cr_card_acm_odue_tms" chinese_name="贷记卡累计逾期次数"/>
+        <loan_ctns_odue_tms metadataid="loan_ctns_odue_tms" chinese_name="贷款连续欠息次数"/>
+        <loan_acm_odue_tms metadataid="loan_acm_odue_tms" chinese_name="贷款累计欠息次数"/>
+        <cr_exn_pnp_odue_dsc metadataid="cr_exn_pnp_odue_dsc" chinese_name="授信本金逾期情况"/>
+        <cr_inf_array metadataid="cr_inf_array" chinese_name="信用信息数组"/>
+      </Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <SysHead>
+        <code metadataid="code" chinese_name="返回码"/>
+        <msg metadataid="msg" chinese_name="返回信息"/>
+      </SysHead>
+      <Body>
+        <cr_cst_no metadataid="cr_cst_no" chinese_name="信贷客户代号"/>
+        <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+        <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+        <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+        <ecif_cst_no metadataid="ecif_cst_no" chinese_name="ECIF客户代号"/>
+      </Body>
+    </sdoroot>
+  </response>
+</service>

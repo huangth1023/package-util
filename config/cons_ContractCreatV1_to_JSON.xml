@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+    <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+    <ImgTplCd metadataid="ImgTplCd" chinese_name="影像模板代码"/>
+    <ImgBsnNo metadataid="ImgBsnNo" chinese_name="影像业务编号"/>
+  </result>
+</Json>

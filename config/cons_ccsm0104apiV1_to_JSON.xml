@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <cr_cst_no metadataid="cr_cst_no" chinese_name="信贷客户代号"/>
+    <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+    <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+    <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+    <ecif_cst_no metadataid="ecif_cst_no" chinese_name="ECIF客户代号"/>
+  </result>
+</Json>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD>
+    <RET>
+      <RET_CODE metadataid="code" chinese_name="交易信息码"/>
+      <RET_MSG metadataid="msg" chinese_name="交易返回信息"/>
+    </RET>
+  </SYS_HEAD>
+  <BODY>
+    <CR_CST_NO metadataid="cr_cst_no" chinese_name="信贷客户代号"/>
+    <CST_NM metadataid="cst_nm" chinese_name="客户名称"/>
+    <IDNT_TP metadataid="idnt_tp" chinese_name="证件类型"/>
+    <IDENT_NO metadataid="ident_no" chinese_name="证件号码"/>
+    <ECIF_CST_NO metadataid="ecif_cst_no" chinese_name="ECIF客户代号"/>
+  </BODY>
+</Json>

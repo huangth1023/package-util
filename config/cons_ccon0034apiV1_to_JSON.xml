@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <ctr_array metadataid="ctr_array" chinese_name="合同信息数组"/>
+    <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+    <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+    <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+    <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+    <bsn_tp metadataid="bsn_tp" chinese_name="业务类型"/>
+    <bsn_tp_nm metadataid="bsn_tp_nm" chinese_name="业务类型名称"/>
+    <ctr_itt_dt metadataid="ctr_itt_dt" chinese_name="合同起始日"/>
+    <ctr_exp_dt metadataid="ctr_exp_dt" chinese_name="合同到期日"/>
+    <ctr_amt metadataid="ctr_amt" chinese_name="合同金额"/>
+    <ctr_avl_amt metadataid="ctr_avl_amt" chinese_name="合同可用金额"/>
+    <ctr_used_amt metadataid="ctr_used_amt" chinese_name="合同已用金额"/>
+    <ctr_st metadataid="ctr_st" chinese_name="合同状态"/>
+    <hs_addrss metadataid="hs_addrss" chinese_name="房屋地址"/>
+    <lnd_acct_no metadataid="lnd_acct_no" chinese_name="放款账号"/>
+    <repymt_acct_no metadataid="repymt_acct_no" chinese_name="还款账号"/>
+    <repymt_mth metadataid="repymt_mth" chinese_name="还款方式"/>
+    <ctr_flt_mth metadataid="ctr_flt_mth" chinese_name="浮动方式"/>
+    <ctr_int_rat_tp metadataid="ctr_int_rat_tp" chinese_name="利率类型"/>
+    <ctr_flt_prprtn metadataid="ctr_flt_prprtn" chinese_name="浮动比例"/>
+    <int_rat_adj_md metadataid="int_rat_adj_md" chinese_name="利率调整方式"/>
+    <ctr_int_setl_mth metadataid="ctr_int_setl_mth" chinese_name="结息方式"/>
+    <ctr_exec_int_rate metadataid="ctr_exec_int_rate" chinese_name="执行利率"/>
+    <pymt_dt metadataid="pymt_dt" chinese_name="指定还款日期"/>
+    <loan_pps_dsc metadataid="loan_pps_dsc" chinese_name="贷款用途说明"/>
+    <rvlv_flg metadataid="rvlv_flg" chinese_name="循环标志"/>
+    <dbt_array1 metadataid="dbt_array1" chinese_name="借据信息数组"/>
+    <dbt_amt metadataid="dbt_amt" chinese_name="借据金额"/>
+    <dbt_ccy metadataid="dbt_ccy" chinese_name="借据币种"/>
+    <dbt_itt_dt metadataid="dbt_itt_dt" chinese_name="借据起始日"/>
+    <dbt_exp_dt metadataid="dbt_exp_dt" chinese_name="借据到期日"/>
+    <dbt_st metadataid="dbt_st" chinese_name="借据状态"/>
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <dbt_bal metadataid="dbt_bal" chinese_name="借据余额"/>
+    <rmt_inst_no metadataid="rmt_inst_no" chinese_name="汇款机构号"/>
+    <repymt_mth metadataid="repymt_mth" chinese_name="还款方式"/>
+    <flt_mth metadataid="flt_mth" chinese_name="浮动方式"/>
+    <int_rat_tp metadataid="int_rat_tp" chinese_name="利率类型"/>
+    <flt_prprtn metadataid="flt_prprtn" chinese_name="浮动比例"/>
+    <int_rat_adj_md metadataid="int_rat_adj_md" chinese_name="利率调整方式"/>
+    <int_setl_mth metadataid="int_setl_mth" chinese_name="结息方式"/>
+    <lnd_acct_no metadataid="lnd_acct_no" chinese_name="放款账号"/>
+    <repymt_acct_no metadataid="repymt_acct_no" chinese_name="还款账号"/>
+    <exec_int_rate metadataid="exec_int_rate" chinese_name="执行利率"/>
+    <dbt_array1 metadataid="dbt_array1" chinese_name="借据信息数组"/>
+    <ctr_array metadataid="ctr_array" chinese_name="合同信息数组"/>
+  </result>
+</Json>

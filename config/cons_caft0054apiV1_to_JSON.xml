@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <tot_due_amt metadataid="tot_due_amt" chinese_name="全部应还款金额"/>
+    <due_pnp_amt metadataid="due_pnp_amt" chinese_name="应还本金金额"/>
+    <due_rglr_int_amt metadataid="due_rglr_int_amt" chinese_name="应还正常利息"/>
+    <due_dlq_int_amt metadataid="due_dlq_int_amt" chinese_name="应还拖欠利息"/>
+    <due_fine_int_amt metadataid="due_fine_int_amt" chinese_name="应还罚息"/>
+    <pcd_fee_amt metadataid="pcd_fee_amt" chinese_name="手续费金额"/>
+  </result>
+</Json>

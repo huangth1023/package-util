@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head>
+    <appid metadataid="appid" chinese_name="应用id"/>
+    <token metadataid="token" chinese_name="应用授权令牌"/>
+    <version metadataid="version" chinese_name="api版本号"/>
+    <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+    <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+    <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+    <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+  </head>
+  <request>
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <clr_flg metadataid="clr_flg" chinese_name="结清标识"/>
+    <repymt_tp metadataid="repymt_tp" chinese_name="还款类型"/>
+    <apnt_rpy_amt metadataid="apnt_rpy_amt" chinese_name="指定还款金额"/>
+    <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+    <apnt_rpy_pnp_amt metadataid="apnt_rpy_pnp_amt" chinese_name="指定还本金额"/>
+  </request>
+</Json>

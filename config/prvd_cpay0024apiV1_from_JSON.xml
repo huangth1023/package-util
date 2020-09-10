@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD>
+    <RET>
+      <RET_CODE metadataid="code" chinese_name="交易信息码"/>
+      <RET_MSG metadataid="msg" chinese_name="交易返回信息"/>
+    </RET>
+  </SYS_HEAD>
+  <BODY>
+    <CST_NM metadataid="cst_nm" chinese_name="客户名称"/>
+    <IDNT_TP metadataid="idnt_tp" chinese_name="证件类型"/>
+    <IDENT_NO metadataid="ident_no" chinese_name="证件号码"/>
+    <CTR_NO metadataid="ctr_no" chinese_name="合同号"/>
+    <CTR_BAL metadataid="ctr_bal" chinese_name="合同余额"/>
+    <DBT_NO metadataid="dbt_no" chinese_name="借据号"/>
+    <DBT_AMT metadataid="dbt_amt" chinese_name="借据金额"/>
+    <CTR_EXP_DT metadataid="ctr_exp_dt" chinese_name="合同到期日"/>
+    <DBT_EXP_DT metadataid="dbt_exp_dt" chinese_name="借据到期日"/>
+    <INT_RATE metadataid="int_rate" chinese_name="利率"/>
+    <INT_RATE metadataid="int_rate" chinese_name="利率"/>
+  </BODY>
+</Json>

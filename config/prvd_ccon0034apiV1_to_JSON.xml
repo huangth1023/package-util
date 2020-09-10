@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD is_struct="true">
+    <SERVICE_CODE metadataid="service_code" chinese_name="服务代码" expression=""/>
+    <MESSAGE_TYPE metadataid="message_type" chinese_name="报文类型" expression=""/>
+    <MESSAGE_CODE metadataid="message_code" chinese_name="报文代码" expression=""/>
+    <TRAN_DATE metadataid="tran_date" chinese_name="交易日期" expression="ff:substring(${/sdoroot/syshead/timestamp},0,8)"/>
+    <TRAN_TIMESTAMP metadataid="tran_timestamp" chinese_name="交易时间" expression="ff:substring(${/sdoroot/syshead/timestamp},8,17)"/>
+    <SOURCE_TYPE metadataid="source_type" chinese_name="渠道号" expression="OPEN"/>
+    <TRAN_MODE metadataid="tran_mode" chinese_name="交易模式" expression="ONLINE"/>
+    <USER_LANG metadataid="user_lang" chinese_name="操作员语言" expression="CHINESE"/>
+    <PLATFORM_ID metadataid="platform_id" chinese_name="平台号" expression="ff:get('platform_id',${/sdoroot/syshead/platform_id})"/>
+    <PLATFORM_USER_ID metadataid="platform_user_id" chinese_name="平台用户id" expression=""/>
+    <SEQ_NO metadataid="seq_no" chinese_name="渠道流水号" expression=""/>
+    <USER_ID metadataid="user_id" chinese_name="银行用户号" expression=""/>
+    <BRANCH_ID metadataid="branch_id" chinese_name="交易机构" expression=""/>
+    <BANK_USER_ID metadataid="bank_user_id" chinese_name="行内用户号" expression=""/>
+    <COMPANY metadataid="company" chinese_name="法人" expression="BOJJ"/>
+    <PROGRAM_ID metadataid="program_id" chinese_name="交易屏幕标识" expression=""/>
+    <GLOBAL_SEQ_NO metadataid="global_seq_no" chinese_name="全局流水号" expression="ff:getSeqNo()"/>
+  </SYS_HEAD>
+  <BODY is_struct="true">
+    <IDNT_TP metadataid="idnt_tp" chinese_name="证件类型"/>
+    <SOURCE_ID metadataid="source_id" chinese_name="产品渠道号"/>
+    <IDENT_NO metadataid="ident_no" chinese_name="证件号码"/>
+    <CST_NM metadataid="cst_nm" chinese_name="客户名称"/>
+    <CTR_NO metadataid="ctr_no" chinese_name="合同号"/>
+    <CTR_ST metadataid="ctr_st" chinese_name="合同状态"/>
+    <DBT_NO metadataid="dbt_no" chinese_name="借据号"/>
+    <COPR_BSN_NO metadataid="copr_bsn_no" chinese_name="合作方业务编号"/>
+    <CLR_DBT_FLG metadataid="clr_dbt_flg" chinese_name="已结清借据标识"/>
+    <ECIFCST_NO metadataid="ecifcst_no" chinese_name="ECIF客户代号"/>
+  </BODY>
+</Json>

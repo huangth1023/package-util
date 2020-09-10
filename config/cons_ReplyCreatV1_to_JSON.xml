@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <reply_no metadataid="reply_no" chinese_name="批复编号"/>
+    <copr_bsnno metadataid="copr_bsnno" chinese_name="合作方业务编号"/>
+  </result>
+</Json>

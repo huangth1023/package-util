@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD>
+    <RET>
+      <RET_CODE metadataid="code" chinese_name="交易信息码"/>
+      <RET_MSG metadataid="msg" chinese_name="交易返回信息"/>
+    </RET>
+  </SYS_HEAD>
+  <BODY>
+    <CtrNo metadataid="ctr_no" chinese_name="合同号"/>
+    <SourceSysId metadataid="source_id" chinese_name="产品渠道号"/>
+    <ImgTplCd metadataid="ImgTplCd" chinese_name="影像模板代码"/>
+    <ImgBsnNo metadataid="ImgBsnNo" chinese_name="影像业务编号"/>
+  </BODY>
+</Json>

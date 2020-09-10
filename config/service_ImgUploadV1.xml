@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+  <request>
+    <sdoroot>
+      <SysHead>
+        <appid metadataid="appid" chinese_name="应用id"/>
+        <token metadataid="token" chinese_name="应用授权令牌"/>
+        <version metadataid="version" chinese_name="api版本号"/>
+        <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+        <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+        <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+        <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+      </SysHead>
+      <Body>
+        <upload_type metadataid="upload_type" chinese_name="上传类型"/>
+        <model_code metadataid="model_code" chinese_name="模型"/>
+        <batch_id metadataid="batch_id" chinese_name="影像批次号"/>
+        <file_array metadataid="file_array" chinese_name="文件上传数组"/>
+        <file_type metadataid="file_type" chinese_name="文件类型"/>
+        <file_data metadataid="file_data" chinese_name="文件数据"/>
+        <file_model_code metadataid="file_model_code" chinese_name="模板编号"/>
+        <file_array metadataid="file_array" chinese_name="文件上传数组"/>
+      </Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <SysHead>
+        <code metadataid="code" chinese_name="返回码"/>
+        <msg metadataid="msg" chinese_name="返回信息"/>
+      </SysHead>
+      <Body>
+        <batch_id metadataid="batch_id" chinese_name="影像批次号"/>
+      </Body>
+    </sdoroot>
+  </response>
+</service>

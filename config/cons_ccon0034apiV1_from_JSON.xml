@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head>
+    <appid metadataid="appid" chinese_name="应用id"/>
+    <token metadataid="token" chinese_name="应用授权令牌"/>
+    <version metadataid="version" chinese_name="api版本号"/>
+    <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+    <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+    <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+    <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+  </head>
+  <request>
+    <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+    <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+    <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+    <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+    <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+    <ctr_st metadataid="ctr_st" chinese_name="合同状态"/>
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <copr_bsn_no metadataid="copr_bsn_no" chinese_name="合作方业务编号"/>
+    <clr_dbt_flg metadataid="clr_dbt_flg" chinese_name="已结清借据标识"/>
+    <ecifcst_no metadataid="ecifcst_no" chinese_name="ECIF客户代号"/>
+  </request>
+</Json>

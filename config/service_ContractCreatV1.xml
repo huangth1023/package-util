@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+  <request>
+    <sdoroot>
+      <SysHead>
+        <appid metadataid="appid" chinese_name="应用id"/>
+        <token metadataid="token" chinese_name="应用授权令牌"/>
+        <version metadataid="version" chinese_name="api版本号"/>
+        <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+        <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+        <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+        <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+      </SysHead>
+      <Body>
+        <reply_no metadataid="reply_no" chinese_name="批复编号"/>
+        <bsn_tp metadataid="bsn_tp" chinese_name="业务类型"/>
+        <limit_no metadataid="limit_no" chinese_name="额度编号"/>
+        <ctr_amt metadataid="ctr_amt" chinese_name="合同金额"/>
+        <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+        <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+        <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+        <copr_bsnno metadataid="copr_bsnno" chinese_name="合作方业务编号"/>
+        <ctritt_dt metadataid="ctritt_dt" chinese_name="合同起始日期"/>
+        <ctrexp_dt metadataid="ctrexp_dt" chinese_name="合同到期日"/>
+        <lndcardpsbk_flag metadataid="lndcardpsbk_flag" chinese_name="放款卡折标识"/>
+        <lndopenacct_bnkno metadataid="lndopenacct_bnkno" chinese_name="放款开户行行号"/>
+        <lndopenacct_bnknm metadataid="lndopenacct_bnknm" chinese_name="放款开户行行名"/>
+        <lnd_acctno metadataid="lnd_acctno" chinese_name="放款账号"/>
+        <lnd_acctnm metadataid="lnd_acctnm" chinese_name="放款账户名称"/>
+        <rpymntcardpsbk_flag metadataid="rpymntcardpsbk_flag" chinese_name="还款卡折标识"/>
+        <rpymntopenacct_bnkno metadataid="rpymntopenacct_bnkno" chinese_name="还款开户行行号"/>
+        <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+        <img_tpl_cd metadataid="img_tpl_cd" chinese_name="影像模板代码"/>
+        <img_bsn_no metadataid="img_bsn_no" chinese_name="影像业务编号"/>
+        <rpymntopenacct_bnknm metadataid="rpymntopenacct_bnknm" chinese_name="还款开户行行名"/>
+        <repymt_acctno metadataid="repymt_acctno" chinese_name="还款账号"/>
+        <repymt_acctnm metadataid="repymt_acctnm" chinese_name="还款账户名称"/>
+      </Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <SysHead>
+        <code metadataid="code" chinese_name="返回码"/>
+        <msg metadataid="msg" chinese_name="返回信息"/>
+      </SysHead>
+      <Body>
+        <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+        <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+        <ImgTplCd metadataid="ImgTplCd" chinese_name="影像模板代码"/>
+        <ImgBsnNo metadataid="ImgBsnNo" chinese_name="影像业务编号"/>
+      </Body>
+    </sdoroot>
+  </response>
+</service>

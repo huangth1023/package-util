@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD is_struct="true">
+    <SERVICE_CODE metadataid="service_code" chinese_name="服务代码" expression=""/>
+    <MESSAGE_TYPE metadataid="message_type" chinese_name="报文类型" expression=""/>
+    <MESSAGE_CODE metadataid="message_code" chinese_name="报文代码" expression=""/>
+    <TRAN_DATE metadataid="tran_date" chinese_name="交易日期" expression="ff:substring(${/sdoroot/syshead/timestamp},0,8)"/>
+    <TRAN_TIMESTAMP metadataid="tran_timestamp" chinese_name="交易时间" expression="ff:substring(${/sdoroot/syshead/timestamp},8,17)"/>
+    <SOURCE_TYPE metadataid="source_type" chinese_name="渠道号" expression="OPEN"/>
+    <TRAN_MODE metadataid="tran_mode" chinese_name="交易模式" expression="ONLINE"/>
+    <USER_LANG metadataid="user_lang" chinese_name="操作员语言" expression="CHINESE"/>
+    <PLATFORM_ID metadataid="platform_id" chinese_name="平台号" expression="ff:get('platform_id',${/sdoroot/syshead/platform_id})"/>
+    <PLATFORM_USER_ID metadataid="platform_user_id" chinese_name="平台用户id" expression=""/>
+    <SEQ_NO metadataid="seq_no" chinese_name="渠道流水号" expression=""/>
+    <USER_ID metadataid="user_id" chinese_name="银行用户号" expression=""/>
+    <BRANCH_ID metadataid="branch_id" chinese_name="交易机构" expression=""/>
+    <BANK_USER_ID metadataid="bank_user_id" chinese_name="行内用户号" expression=""/>
+    <COMPANY metadataid="company" chinese_name="法人" expression="BOJJ"/>
+    <PROGRAM_ID metadataid="program_id" chinese_name="交易屏幕标识" expression=""/>
+    <GLOBAL_SEQ_NO metadataid="global_seq_no" chinese_name="全局流水号" expression="ff:getSeqNo()"/>
+  </SYS_HEAD>
+  <BODY is_struct="true">
+    <CST_NM metadataid="cst_nm" chinese_name="客户名称"/>
+    <SOURCE_ID metadataid="source_id" chinese_name="产品渠道号"/>
+    <CTF_ISSU_OFFIC metadataid="ctf_issu_offic" chinese_name="发证机关"/>
+    <CST_TP metadataid="cst_tp" chinese_name="客户类型"/>
+    <IDNT_TP metadataid="idnt_tp" chinese_name="证件类型"/>
+    <IDENT_NO metadataid="ident_no" chinese_name="证件号码"/>
+    <OPR_TP metadataid="opr_tp" chinese_name="操作类型"/>
+    <SUMCHK_IND metadataid="sumchk_ind" chinese_name="校验标志"/>
+    <CST_MGR_NO metadataid="cst_mgr_no" chinese_name="客户经理"/>
+    <CST_MGR_INST_NO metadataid="cst_mgr_inst_no" chinese_name="客户经理机构号"/>
+    <CR_CST_NO metadataid="cr_cst_no" chinese_name="信贷客户代号"/>
+    <CR_EXN_CST_FLG metadataid="cr_exn_cst_flg" chinese_name="授信客户标识"/>
+    <THRD_PARTY_CST_FLG metadataid="thrd_party_cst_flg" chinese_name="第三方客户标识"/>
+    <THRD_PARTY_CST_TP metadataid="thrd_party_cst_tp" chinese_name="第三方客户类型"/>
+    <GND_IND metadataid="gnd_ind" chinese_name="性别标志"/>
+    <BIRTH_DATE metadataid="birth_date" chinese_name="出生日期"/>
+    <IDENT_EXP_DT metadataid="ident_exp_dt" chinese_name="证件到期日"/>
+    <NTNTY_CD metadataid="ntnty_cd" chinese_name="国籍代码"/>
+    <NATION metadataid="nation" chinese_name="民族"/>
+    <MARRIAGE_CD metadataid="marriage_cd" chinese_name="婚姻状况代码"/>
+    <FRMR_FLG metadataid="frmr_flg" chinese_name="农户标识"/>
+    <HSHD_RGST_KND metadataid="hshd_rgst_knd" chinese_name="户籍性质"/>
+    <DOMC_LO metadataid="domc_lo" chinese_name="户籍所在地"/>
+    <LCL_POLC_STN_NM metadataid="lcl_polc_stn_nm" chinese_name="街道派出所名称"/>
+    <HIGH_EDCT metadataid="high_edct" chinese_name="最高学历"/>
+    <DGR_CD metadataid="dgr_cd" chinese_name="学位代码"/>
+    <OCP_CD metadataid="ocp_cd" chinese_name="职业代码"/>
+    <POS_TTL_CD metadataid="pos_ttl_cd" chinese_name="职称代码"/>
+    <POS_CD metadataid="pos_cd" chinese_name="职务代码"/>
+    <HLT_ST metadataid="hlt_st" chinese_name="健康状况"/>
+    <PST_KND metadataid="pst_knd" chinese_name="岗位性质"/>
+    <CORP_NM metadataid="corp_nm" chinese_name="工作单位"/>
+    <OFFC_TEL metadataid="offc_tel" chinese_name="办公电话"/>
+    <CO_WRK_TRM metadataid="co_wrk_trm" chinese_name="现单位工作年限"/>
+    <FAM_PPN_NUM metadataid="fam_ppn_num" chinese_name="家庭人口"/>
+    <CTY_CD metadataid="cty_cd" chinese_name="国家编码"/>
+    <PROV_CD metadataid="prov_cd" chinese_name="省份代码"/>
+    <CITY_CD metadataid="city_cd" chinese_name="城市代码"/>
+    <DSTC_CD metadataid="dstc_cd" chinese_name="区县代码"/>
+    <FAM_ADR metadataid="fam_adr" chinese_name="家庭住址"/>
+    <HS_TP metadataid="hs_tp" chinese_name="住宅类型"/>
+    <MBL_NO metadataid="mbl_no" chinese_name="移动号码"/>
+    <IDY_INVL_CD metadataid="idy_invl_cd" chinese_name="所属行业代码"/>
+    <IMG_TPL_CD metadataid="img_tpl_cd" chinese_name="影像模板代码"/>
+    <IMG_BSN_NO metadataid="img_bsn_no" chinese_name="影像业务编号"/>
+    <CR_INF_ARRAY metadataid="cr_inf_array" chinese_name="信用信息数组"/>
+    <SRC_NM metadataid="src_nm" chinese_name="来源"/>
+    <QRY_DT metadataid="qry_dt" chinese_name="查询日期"/>
+    <CR_CARD_CTNS_ODUE_TMS metadataid="cr_card_ctns_odue_tms" chinese_name="贷记卡连续逾期次数"/>
+    <CR_CARD_ACM_ODUE_TMS metadataid="cr_card_acm_odue_tms" chinese_name="贷记卡累计逾期次数"/>
+    <LOAN_CTNS_ODUE_TMS metadataid="loan_ctns_odue_tms" chinese_name="贷款连续欠息次数"/>
+    <LOAN_ACM_ODUE_TMS metadataid="loan_acm_odue_tms" chinese_name="贷款累计欠息次数"/>
+    <CR_EXN_PNP_ODUE_DSC metadataid="cr_exn_pnp_odue_dsc" chinese_name="授信本金逾期情况"/>
+    <CR_INF_ARRAY metadataid="cr_inf_array" chinese_name="信用信息数组"/>
+  </BODY>
+</Json>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <SYS_HEAD>
+    <RET>
+      <RET_CODE metadataid="code" chinese_name="交易信息码"/>
+      <RET_MSG metadataid="msg" chinese_name="交易返回信息"/>
+    </RET>
+  </SYS_HEAD>
+  <BODY>
+    <DBT_NO metadataid="dbt_no" chinese_name="借据号"/>
+    <ACT_RPY_TOT_AMT metadataid="act_rpy_tot_amt" chinese_name="实还总额"/>
+  </BODY>
+</Json>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head is_struct="true">
+    <code metadataid="code" chinese_name="响应码"/>
+    <msg metadataid="msg" chinese_name="响应信息"/>
+  </head>
+  <result is_struct="true">
+    <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+    <act_rpy_tot_amt metadataid="act_rpy_tot_amt" chinese_name="实还总额"/>
+  </result>
+</Json>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service>
+  <request>
+    <sdoroot>
+      <SysHead>
+        <appid metadataid="appid" chinese_name="应用id"/>
+        <token metadataid="token" chinese_name="应用授权令牌"/>
+        <version metadataid="version" chinese_name="api版本号"/>
+        <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+        <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+        <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+        <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+      </SysHead>
+      <Body>
+        <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+        <clr_flg metadataid="clr_flg" chinese_name="结清标识"/>
+        <repymt_tp metadataid="repymt_tp" chinese_name="还款类型"/>
+        <apnt_rpy_amt metadataid="apnt_rpy_amt" chinese_name="指定还款金额"/>
+        <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+        <apnt_rpy_pnp_amt metadataid="apnt_rpy_pnp_amt" chinese_name="指定还本金额"/>
+      </Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <SysHead>
+        <code metadataid="code" chinese_name="返回码"/>
+        <msg metadataid="msg" chinese_name="返回信息"/>
+      </SysHead>
+      <Body>
+        <dbt_no metadataid="dbt_no" chinese_name="借据号"/>
+        <tot_due_amt metadataid="tot_due_amt" chinese_name="全部应还款金额"/>
+        <due_pnp_amt metadataid="due_pnp_amt" chinese_name="应还本金金额"/>
+        <due_rglr_int_amt metadataid="due_rglr_int_amt" chinese_name="应还正常利息"/>
+        <due_dlq_int_amt metadataid="due_dlq_int_amt" chinese_name="应还拖欠利息"/>
+        <due_fine_int_amt metadataid="due_fine_int_amt" chinese_name="应还罚息"/>
+        <pcd_fee_amt metadataid="pcd_fee_amt" chinese_name="手续费金额"/>
+      </Body>
+    </sdoroot>
+  </response>
+</service>

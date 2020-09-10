@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Json package_type="json">
+  <head>
+    <appid metadataid="appid" chinese_name="应用id"/>
+    <token metadataid="token" chinese_name="应用授权令牌"/>
+    <version metadataid="version" chinese_name="api版本号"/>
+    <timestamp metadataid="timestamp" chinese_name="请求时间"/>
+    <ip_addr metadataid="ip_addr" chinese_name="客户端ip地址"/>
+    <platform_user_id metadataid="platform_user_id" chinese_name="平台用户ID"/>
+    <seq_no metadataid="seq_no" chinese_name="系统流水号"/>
+  </head>
+  <request>
+    <cst_nm metadataid="cst_nm" chinese_name="客户名称"/>
+    <idnt_tp metadataid="idnt_tp" chinese_name="证件类型"/>
+    <ident_no metadataid="ident_no" chinese_name="证件号码"/>
+    <ctr_no metadataid="ctr_no" chinese_name="合同号"/>
+    <copr_bsn_no metadataid="copr_bsn_no" chinese_name="合作方业务编号"/>
+    <limit_no metadataid="limit_no" chinese_name="额度编号"/>
+    <dbt_amt metadataid="dbt_amt" chinese_name="借据金额"/>
+    <dbt_exp_dt metadataid="dbt_exp_dt" chinese_name="借据到期日"/>
+    <lnd_seq_no metadataid="lnd_seq_no" chinese_name="放款流水号"/>
+    <guarant_ctr_no metadataid="guarant_ctr_no" chinese_name="担保合同编号"/>
+    <img_tpl_cd metadataid="img_tpl_cd" chinese_name="影像模板代码"/>
+    <img_bsn_no metadataid="img_bsn_no" chinese_name="影像业务编号"/>
+    <rmt_inst_no metadataid="rmt_inst_no" chinese_name="汇款机构号"/>
+    <trstd_pymnt_info_no metadataid="trstd_pymnt_info_no" chinese_name="受托支付信息编号"/>
+    <source_id metadataid="source_id" chinese_name="产品渠道号"/>
+  </request>
+</Json>
