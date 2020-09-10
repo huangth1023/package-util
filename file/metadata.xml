@@ -152,11 +152,11 @@
   <repymt_acctnm metadataid="repymt_acctnm" chinese_name="还款账户名称" type="String" length="255" isPin="false"/>  
   <ImgTplCd metadataid="ImgTplCd" chinese_name="影像模板代码" type="String" length="30" isPin="false"/>  
   <ImgBsnNo metadataid="ImgBsnNo" chinese_name="影像业务编号" type="String" length="100" isPin="false"/>  
-  <upload_type metadataid="upload_type" chinese_name="上传类型" type="String" length="30" isPin="false"/>
-  <model_code metadataid="model_code" chinese_name="模型" type="String" length="10" isPin="false"/>
-  <batch_id metadataid="batch_id" chinese_name="影像批次号" type="String" length="128" isPin="false"/>
-  <file_array metadataid="file_array" chinese_name="文件上传数组" type="Array" length="" isPin="false"/>
-  <file_type metadataid="file_type" chinese_name="文件类型" type="String" length="2" isPin="false"/>
-  <file_data metadataid="file_data" chinese_name="文件数据" type="String" length="1024" isPin="false"/>
-  <file_model_code metadataid="file_model_code" chinese_name="模板编号" type="String" length="10" isPin="false"/>
+  <upload_type metadataid="upload_type" chinese_name="上传类型" type="String" length="30" isPin="false"/>  
+  <model_code metadataid="model_code" chinese_name="模型" type="String" length="10" isPin="false"/>  
+  <batch_id metadataid="batch_id" chinese_name="影像批次号" type="String" length="128" isPin="false"/>  
+  <file_array metadataid="file_array" chinese_name="文件上传数组" type="Array" length="" isPin="false"/>  
+  <file_type metadataid="file_type" chinese_name="文件类型" type="String" length="2" isPin="false"/>  
+  <file_data metadataid="file_data" chinese_name="文件数据" type="String" length="1024" isPin="false"/>  
+  <file_model_code metadataid="file_model_code" chinese_name="模板编号" type="String" length="10" isPin="false"/> 
 </metadata>
